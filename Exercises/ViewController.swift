@@ -7,13 +7,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
+    // MARK: - Life cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
 
+// MARK: - Setup
+
+private extension ViewController {
+    func setupViews() { }
+}
+
+// MARK: - Actions
+
+private extension ViewController {
+    @IBAction func doneButtonDidTapped(_ sender: UIButton) {
+        // TODO: It will be implemented later
+    }
+}
