@@ -25,5 +25,7 @@ private extension ViewController {
 // MARK: - Actions
 
 private extension ViewController {
-    @IBAction func doneButtonDidTapped(_ sender: UIButton) { }
+    @IBAction func doneButtonDidTapped(_ sender: UIButton) {
+        // TODO: It will be implemented later
+    }
 }
